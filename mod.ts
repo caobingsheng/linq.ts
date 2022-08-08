@@ -1,3 +1,3 @@
-export * from "./src/enumerable.ts"
+export { default as Enumerable } from "./src/enumerable.ts"
 export * from "./src/helpers.ts"
-export * from "./src/list.ts"
+export { default as List } from "./src/list.ts"
