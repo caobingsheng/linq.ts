@@ -61,9 +61,6 @@
     "typescript": "^3.9.6"
   },
   "config": {
-    "ghooks": {
-      "pre-commit": "npm run validate"
-    },
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
     }
