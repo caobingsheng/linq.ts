@@ -1,4 +1,4 @@
-import List from './list'
+import List from './list.ts'
 
 export default class Enumerable {
   /**

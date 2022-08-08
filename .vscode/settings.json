@@ -1,5 +1,12 @@
 {
   "files.exclude": {
     "**/*.js": { "when": "$(basename).ts" }
-  }
+  },
+  "deno.codeLens.implementations": true,
+  "deno.codeLens.references": true,
+  "deno.codeLens.referencesAllFunctions": true,
+  "deno.codeLens.test": true,
+  "deno.enable": true,
+  "deno.suggest.completeFunctionCalls": true,
+  "deno.unstable": true
 }

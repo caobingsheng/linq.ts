@@ -1,4 +1,4 @@
-import { composeComparers, negate, isObj, equal, keyComparer } from './helpers'
+import { composeComparers, negate, isObj, equal, keyComparer } from './helpers.ts'
 
 type PredicateType<T> = (value?: T, index?: number, list?: T[]) => boolean
 

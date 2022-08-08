@@ -7,5 +7,5 @@
  * Copyright © 2016 Flavio Corpa. All rights reserved.
  *
  */
-export { default as List } from './list'
-export { default as Enumerable } from './enumerable'
+export { default as List } from './list.ts'
+export { default as Enumerable } from './enumerable.ts'
